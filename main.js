@@ -1,0 +1,18 @@
+const doublyLinkedList = require('./doublyLinckedList');
+const list = new doublyLinkedList();
+list.push(1);
+list.push(2);
+list.push(3);
+console.log(list);
+list.pop();
+console.log(list);
+list.shift();
+console.log(list);
+list.unshift(10);
+console.log(list);
+list.set(1, 9);
+console.log(list);
+list.insert(2, 5);
+console.log(list);
+list.remove(1);
+console.log(list);
